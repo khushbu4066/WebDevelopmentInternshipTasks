@@ -1,0 +1,116 @@
+
+body {
+    background-color: #050541; /* Pastel yellow background */
+    color: black; /* Dark blue text */
+    font-family: 'Arial', sans-serif;
+    overflow-y: auto;
+  }
+  
+  section {
+    background-color: #460d4c; /* Lighter yellow background */
+    color: white;
+    border: 1px solid #D9E0EE; /* Light blue border */
+    padding: 20px;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-list li {
+    background-color: #FFFEFE; /* White background */
+    border: 1px solid #E2E8F0; /* Light blue border */
+    padding: 15px;
+    margin: 20px 0;
+    transition: border 0.3s;
+  }
+  
+  .task-list li:hover {
+    border: 1px solid #F93800; /* Orange border on hover */
+  }
+  
+  h1 {
+    color: white; /* Orange text */
+    text-align: center;
+  }
+  
+  .task-info h4 {
+    margin: 0;
+    font-size: 28px; /* Larger font size */
+    font-weight: 700; /* Bolder text */
+    margin-bottom: 10px;
+    color: whitesmoke; /* Orange text */
+  }
+  
+  .task-due-date, .task-assigne {
+    font-size: 16px;
+    color: white; /* Light gray text */
+    margin-bottom: 5px;
+  }
+  
+  .create-task input,
+  .create-task select,
+  .create-task textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #E2E8F0; /* Light blue border */
+    width: 100%;
+    background-color: white; /* Lighter yellow background */
+    color: black; /* Dark blue text */
+  }
+  
+  .create-task textarea {
+    height: 150px;
+  }
+  
+  .create-task input[type="submit"] {
+    padding: 15px;
+    background-color: #0f0f6d; /* Dark blue background */
+    color: #FFFFFF; /* White text */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-task input[type="submit"]:hover {
+    background-color: #050541; /* Darker blue on hover */
+  }
+  
+  .comment-list {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    font-size: 14px;
+    color: white; /* Light gray text */
+  }
+  
+  .completed-task-list {
+    margin-top: 30px;
+  }
+  
+  .task-management {
+    display: flex;
+  }
+  
+  .left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #D9E0EE; /* Light blue border */
+    margin-left: 10px;
+  }
+  
+  .left-section {
+    flex: 3;
+  }
+  
+  .chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    background-color: white; /* Pastel yellow background */
+    margin-bottom: 15px;
+    padding: 15px;
+    color: black; /* Dark blue text */
+  }
+  
